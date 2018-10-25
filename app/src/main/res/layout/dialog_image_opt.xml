@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_normal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_save_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="13dp"
+        android:text="@string/save_pic"
+        android:textColor="#373737"
+        android:textSize="@dimen/title_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/global_color" />
+
+    <TextView
+        android:id="@+id/tv_identify_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="13dp"
+        android:text="@string/identify_qr"
+        android:textColor="#373737"
+        android:textSize="@dimen/title_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/global_color" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="13dp"
+        android:text="@string/cancel"
+        android:textColor="#373737"
+        android:textSize="@dimen/title_text_size" />
+</LinearLayout>

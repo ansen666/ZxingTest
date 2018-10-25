@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_scanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击扫描图片"/>
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从相册选择图片进行识别"/>
+
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入内容"/>
+
+    <Button
+        android:id="@+id/generate_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击生成二维码"/>
+
+    <ImageView
+        android:id="@+id/iv_qr_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/btn_long_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="长按二维码图片或者点击我识别"/>
+</LinearLayout>

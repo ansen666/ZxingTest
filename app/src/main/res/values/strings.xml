@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ZxingTest</string>
+
+    <string name="qr_code_text">二维码</string>
+    <string name="scan_qr_code_warn">将二维码放入框内，即可自动扫描</string>
+    <string name="scan_qr_code_from_photo_wrong">没有找到二维码</string>
+    <string name="album_text">相册</string>
+
+    <string name="identify_qr">识别二维码</string>
+    <string name="cancel">取消</string>
+    <string name="save_pic">保存图片</string>
+
+    <string name="fancy_qr_code_theme_name_yellow">黄</string>
+    <string name="fancy_qr_code_theme_name_green">绿</string>
+    <string name="fancy_qr_code_theme_name_red">红</string>
+    <string name="fancy_qr_code_theme_name_blue">蓝</string>
+    <string name="fancy_qr_code_theme_name_purple">紫</string>
+    <string name="fancy_qr_code_theme_name_black">黑</string>
+</resources>

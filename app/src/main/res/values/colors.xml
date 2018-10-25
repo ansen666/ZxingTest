@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- scanner -->
+    <color name="scan_mask">#60000000</color>
+    <color name="scan_laser">#cc0000</color>
+    <color name="scan_dot">#ff6600</color>
+    <color name="scan_result_view">#b0000000</color>
+    <color name="scan_result_dots">#c099cc00</color>
+
+    <color name="black_color">#000000</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="global_color">#F7F7F8</color>
+</resources>
